@@ -603,6 +603,8 @@ typedef struct AACENC_COMPONENT_PRIVATE
     
     PV_OMXComponentCapabilityFlagsType iPVCapabilityFlags;
 
+    OMX_TICKS temp_TS;
+
     struct OMX_TI_Debug dbg;
 
     /* Reference count for pending state change requests */
